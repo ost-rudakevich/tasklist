@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+#root {
+  @apply h-screen;
+}
+
+
+@theme {
+  --color-primary: #b61c1c;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-white-gray: #f2f3f5;
+  --color-main-gray: #100f12;
+  --color-gray: {
+    300: '#252525',
+    500: '#999AA5',
+    600: '#66676E',
+    700: '#38373A',
+    800: '#232323',
+    900: '#100f12',
+    950: '#999999'
+  }
+}
